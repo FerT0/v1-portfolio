@@ -30,7 +30,9 @@ export default function Projects() {
                             <a href="https://github.com/FerT0/trivia-game" target="_blank" rel="noreferrer">
                                 <button>View code</button>
                             </a>
+                            <a href="https://trivia-time-game.netlify.app" target="_blank" rel="noreferrer">
                                 <button>Live version</button>
+                            </a>
                             </div>
                         </div>
                         <div className="project">
@@ -51,7 +53,9 @@ export default function Projects() {
                                 <a href="https://github.com/FerT0/shoppey" target="_blank" rel="noreferrer">
                                     <button>View code</button>
                                 </a>
-                                <button>Live version</button>
+                                <a href="https://shoppey-store.netlify.app" target="_blank" rel="noreferrer">
+                                    <button>Live version</button>
+                                </a>
                             </div>
                         </div>
                         <div className="project">
@@ -71,7 +75,9 @@ export default function Projects() {
                                 <a href="https://github.com/FerT0/portfolio" target="_blank" rel="noreferrer">
                                     <button>View code</button>
                                 </a>
-                                <button>Live version</button>
+                                <a href="https://juantascon.netlify.app" target="_blank" rel="noreferrer">
+                                    <button>Live version</button>
+                                </a>
                             </div>
                         </div>
                     </div>
