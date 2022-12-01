@@ -15,7 +15,7 @@ export default function Home(props) {
                     <li className="bar-element" onClick={() => props.nextPage('contact')}>Contact</li>
                 </div>
                 <div className="social">
-                    <a href='https://www.linkedin.com/in/juan-fernando-tascon-677b4a244/' target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
+                    <a href='https://www.linkedin.com/in/juantascon/' target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
                     <a href='https://github.com/FerT0' target="_blank" rel="noreferrer"><FaGithub /></a>
                     <a href='mailto:jtasconacevedo@gmail.com'><FaGoogle /></a>
                 </div>

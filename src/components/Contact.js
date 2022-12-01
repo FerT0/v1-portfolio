@@ -16,7 +16,7 @@ export default function Contact() {
                 </div>
 
                 <div className="contact-links">
-                <a href='https://www.linkedin.com/in/juan-fernando-tascon-677b4a244/' target="_blank" rel="noreferrer">
+                <a href='https://www.linkedin.com/in/juantascon/' target="_blank" rel="noreferrer">
                     <div className="link">
                         <div className='link-icon'>
                             <FaLinkedinIn />
