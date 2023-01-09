@@ -124,6 +124,38 @@ body {
     #header h2 {
         font-size: 25px;
     }
+
+    .header-bar {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 344px) {
+    #header h1 {
+        font-size: 20px;
+    }
+
+    #header h2 {
+        font-size: 15px;
+    }
+
+    .header-bar {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 230px) {
+    #header h1 {
+        font-size: 10px;
+    }
+
+    #header h2 {
+        font-size: 10px;
+    }
+
+    .header-bar {
+        font-size: 8px;
+    }
 }
 
 
@@ -273,13 +305,14 @@ body {
 }
 
 .project p{
-    min-height: 23vh;
+    overflow: hidden;
+    margin-bottom: 2vw;
+    height: 15em;
     text-align: center;
     color: #555;
     line-height: 1.5;
     text-align: justify;
-    font-size: 1vw;
-    display: flex;
+    font-size: 15px;
     transition: 0.3s ease;
 }
 
@@ -347,11 +380,7 @@ body {
 }
 
 
-@media (max-width: 960px) {
-    .project p{
-        font-size: 1.5vw;
-    }
-}
+
 
 
 @media (max-width: 970px) {
